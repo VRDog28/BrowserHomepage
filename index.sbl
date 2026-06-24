@@ -10,7 +10,7 @@
 
 [content, style.wefweg = "anything works here now", content = "Unknown style keys are stored but not used"]
 
-[header, content = "Multiple Elements Test"];[content, content = "This is element A"];[content, content = "This is element B"]
+[header, content = "Multiple Elements Test"];[content, content = "This is element A"];[header, content = "This is element B"]
 
 [header, content = "Style Override Test", style.color = "red"]
 

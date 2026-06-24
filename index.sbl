@@ -1,1 +1,21 @@
-[header, style.color = "green", content = "Welcome to the homepage!"];
+[page, style.backgroundColor = "lightgray"]
+
+[header, content = "My Custom Browser Test Page", style.color = "darkgreen"]
+
+[content, content = "This is a simple test of your browser engine."]
+
+[header, content = "Section 1"]
+
+[content, content = "Page system is working if background is gray."]
+
+[content, style.wefweg = "anything works here now", content = "Unknown style keys are stored but not used"]
+
+[header, content = "Multiple Elements Test"];[content, content = "This is element A"];[content, content = "This is element B"]
+
+[header, content = "Style Override Test", style.color = "red"]
+
+[content, content = "This text should be red header above changes only type styling, not content style"]
+
+[page, style.backgroundColor = "white"]
+
+[content, content = "Page background changed to white at this point"]
